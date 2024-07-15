@@ -1,0 +1,232 @@
+/*1024 - 1229px*/
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main__image {
+        width: 400px;
+    }
+
+    .main__image .main__image-img {
+        max-width: 100%;
+    }
+
+    .products__items {
+       justify-content: center;
+    }
+
+    .product {
+        margin: 12px;
+    }
+
+    .order__form {
+        margin-left: 45px;
+    }
+
+    .order__container {
+        max-width: 1024px;
+    }
+}
+/*768 - 1023px*/
+@media screen and (max-width: 1023px) {
+    .menu__list {
+        width: 420px;
+    }
+
+    .main__container {
+        flex-direction: column;
+    }
+
+    .main__image {
+        order: 1;
+    }
+
+    .main__info {
+        order: 2;
+    }
+
+    .main {
+        margin-top: 70px;
+    }
+
+    .main__double-title {
+        text-align: center;
+    }
+
+    .main__action {
+        text-align: center;
+    }
+
+    .products {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .order {
+        padding-top: 60px;
+        position: relative;
+    }
+
+    .order__image {
+        position: absolute;
+        z-index: -1;
+        right: calc(50% - 400px);
+    }
+
+    .order__image-img {
+        position: relative;
+    }
+
+    .order__container {
+        justify-content: center;
+    }
+}
+/*425 - 767px*/
+@media screen and (max-width: 767px) {
+    .footer__container {
+        justify-content: space-between;
+    }
+
+    .footer__rights {
+        margin-left: 0;
+    }
+
+    .header__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 390px;
+    }
+
+    .menu {
+        order: 3;
+        margin-top: 15px;
+        flex-basis: 100%;
+    /*    Flex-basis этот стиль делает элемент внутри флекса на 100%*/
+    }
+
+    .menu__list {
+        max-width: 390px;
+    }
+
+    .header__cart  {
+        margin-left: 20px;
+    }
+
+    .main__double-title {
+      line-height: 45px;
+    }
+
+    .main__advantages {
+        max-width: 306px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .order__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order__double-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .order__text-message {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .order__form {
+        margin-left: 0;
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 656px){
+    .main__advantages {
+        max-width: 306px;
+    }
+}
+
+/*375 - 424px*/
+@media screen and (max-width: 424px) {
+    .menu {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+    }
+
+    .menu__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu__item {
+        margin: 15px 0;
+    }
+
+    .main__image {
+        width: 100%;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .header__burger svg {
+        width: 36px;
+        height: 36px;
+        fill: #f9d7a8;
+        margin-right: 20px;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .menu__close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+/*320 - 374px*/
+@media screen and (max-width: 374px) {
+    .main__double-title {
+        font-size: 38px;
+    }
+
+    .order__form {
+        text-align: center;
+    }
+
+    .order__base-input {
+        width: 290px;
+    }
+
+    .order__btn {
+        width: 290px;
+    }
+
+    .footer__rights {
+        margin-left: 20px;
+    }
+}
